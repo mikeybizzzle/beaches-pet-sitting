@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Color Variables */
+    --color-primary-50: #EBF4FF;
+    --color-primary-100: #D1E7FF;
+    --color-primary-200: #A3CFFF;
+    --color-primary-300: #70B3FF;
+    --color-primary-400: #4A90E2;
+    --color-primary-500: #3B7DD8;
+    --color-primary-600: #2E64B5;
+    --color-primary-700: #234C92;
+    --color-primary-800: #1A3A70;
+    --color-primary-900: #0F2447;
+
+    /* Spacing */
+    --section-spacing-mobile: 3rem;
+    --section-spacing-tablet: 4rem;
+    --section-spacing-desktop: 5rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-neutral-700 bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-neutral-900 font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
