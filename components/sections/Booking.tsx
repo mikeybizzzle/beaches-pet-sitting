@@ -29,7 +29,7 @@ export function Booking() {
             transition={{ delay: 0.1 }}
             className="text-xl mb-8 text-primary-50"
           >
-            Let's discuss how I can keep your pets happy and healthy while you're away
+            Let&apos;s discuss how I can keep your pets happy and healthy while you&apos;re away
           </motion.p>
 
           <motion.p

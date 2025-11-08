@@ -34,15 +34,15 @@ export function About() {
           >
             <div className="space-y-4 text-lg text-neutral-700">
               <p>
-                Hi, I'm dedicated to animal care and welfare. With my Veterinary Assistant
+                Hi, I&apos;m dedicated to animal care and welfare. With my Veterinary Assistant
                 degree and over 11 years of hands-on professional experience, I understand
-                that leaving your pets is never easy. That's why I founded Beaches Pet Sitting –
+                that leaving your pets is never easy. That&apos;s why I founded Beaches Pet Sitting –
                 to provide the kind of knowledgeable, compassionate care that gives you complete
-                peace of mind while you're away.
+                peace of mind while you&apos;re away.
               </p>
               <p>
                 As a mature, reliable professional who is fully bondable, I treat every pet as
-                if they were my own. Whether it's administering medications, maintaining special
+                if they were my own. Whether it&apos;s administering medications, maintaining special
                 diets, or simply providing companionship and TLC, your pets receive the
                 individualized attention they deserve.
               </p>

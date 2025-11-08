@@ -28,9 +28,9 @@ export function Testimonials() {
               <CardContent className="pt-6">
                 <Quote className="w-12 h-12 text-primary-200 mx-auto mb-6" />
                 <p className="text-lg text-neutral-700 mb-6 italic">
-                  "We value our clients' privacy and share testimonials only with permission.
+                  &quot;We value our clients&apos; privacy and share testimonials only with permission.
                   Many satisfied pet parents have trusted us with their beloved companions.
-                  References are available upon request during your free consultation."
+                  References are available upon request during your free consultation.&quot;
                 </p>
                 <div className="flex justify-center gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (

@@ -107,9 +107,9 @@ interface AccordionContentProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const AccordionContent = React.forwardRef<HTMLDivElement, AccordionContentProps>(
-  ({ value, className, children, ...props }, ref) => {
+  ({ value: _value, className, children, ...props }, ref) => {
     const { openItems } = useAccordion()
-    const isOpen = openItems.includes(value)
+    const isOpen = openItems.includes(_value)
 
     return (
       <div
